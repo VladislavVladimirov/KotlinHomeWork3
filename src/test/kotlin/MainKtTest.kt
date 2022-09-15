@@ -38,7 +38,7 @@ class MainKtTest {
         val sum = 500_000
         val previousSum = 8_500_000
         val result = calculateTax(type, sum, previousSum)
-        assertEquals(3750.0, result)
+        assertEquals(0.0, result)
     }
     @Test
     fun calculateTaxType0() {
