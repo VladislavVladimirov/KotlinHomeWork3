@@ -11,6 +11,7 @@ fun calculateTax(type: Int, sum: Int, previousSum: Int): Double {
                 tax
             }
         }
+
         2 -> {
             val percent = 0.0075
             val tax = sum * percent
@@ -20,6 +21,7 @@ fun calculateTax(type: Int, sum: Int, previousSum: Int): Double {
                 tax
             }
         }
+
         else -> 0.0
     }
 }
@@ -71,6 +73,7 @@ fun main() {
                         )
                     }
                 }
+
                 2 -> {
                     println("Введите сумму перевода")
                     val inputSum = readLine()
@@ -99,6 +102,7 @@ fun main() {
                     }
 
                 }
+
                 3 -> {
                     println("Введите сумму перевода")
                     val inputSum = readLine()
@@ -126,9 +130,11 @@ fun main() {
                         )
                     }
                 }
+
                 0 -> {
                     break
                 }
+
                 else -> {
                     println("Неправильный номер команды\n")
                 }

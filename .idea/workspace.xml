@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a306ae35-f596-4ac2-84cc-32307b6fd121" name="Changes" comment="Added autotests and checked code coverage">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/MainKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Task 1/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task_1/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Task 2/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task_2/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task_2/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task_2/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +71,11 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="gradle test" />
       <command value="gradle jacocoTestReport" />
+      <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.KotlinHomeWork3 [jacocoTestReport]">
+  <component name="RunManager" selected="Gradle.MainKtTest.calculateTaxType2IfFalse">
     <configuration name="KotlinHomeWork3 [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -185,8 +181,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.KotlinHomeWork3 [jacocoTestReport]" />
         <item itemvalue="Gradle.MainKtTest.calculateTaxType2IfFalse" />
+        <item itemvalue="Gradle.KotlinHomeWork3 [jacocoTestReport]" />
         <item itemvalue="Gradle.MainKtTest.calculateTaxType1IfTrue" />
         <item itemvalue="Gradle.KotlinHomeWork3 [test]" />
         <item itemvalue="JUnit.MainKtTest" />
@@ -209,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661644758170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added autotests and checked code coverage">
+      <created>1663254945142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663254945142</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
