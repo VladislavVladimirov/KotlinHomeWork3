@@ -1,4 +1,4 @@
-package `Task 1`
+package task_1
 
 val scan = java.util.Scanner(System.`in`)
 fun printMinutes(time: Int): String {
@@ -22,8 +22,6 @@ fun printHours(time: Int): String {
         "был(а) $hours час назад"
     } else if (hours % 10 == 2 || hours % 10 == 3 || hours % 10 == 4) {
         "был(а) $hours часа назад"
-    } else if (hours % 100 == 11) {
-        "был(а) $hours часов назад"
     } else {
         "был(а) $hours часов  назад"
     }

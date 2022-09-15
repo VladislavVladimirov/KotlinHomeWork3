@@ -1,11 +1,11 @@
-package `Task 2`
+package task_2
 
 fun calculateTax(type: Int, sum: Int, previousSum: Int): Double {
     return when (type) {
         1 -> {
             val percentMastercard = 0.006
             val tax = (sum * percentMastercard) + 2000
-            return if (previousSum < 7_500_000) {
+            return if (previousSum <= 7_500_000) {
                 0.0
             } else {
                 tax
@@ -14,7 +14,7 @@ fun calculateTax(type: Int, sum: Int, previousSum: Int): Double {
         2 -> {
             val percent = 0.0075
             val tax = sum * percent
-            return if (tax < 3500) {
+            return if (tax <= 3500) {
                 3500.0
             } else {
                 tax
@@ -126,7 +126,9 @@ fun main() {
                         )
                     }
                 }
-                0 -> break
+                0 -> {
+                    break
+                }
                 else -> {
                     println("Неправильный номер команды\n")
                 }

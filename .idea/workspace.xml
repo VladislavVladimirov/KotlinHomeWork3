@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a306ae35-f596-4ac2-84cc-32307b6fd121" name="Changes" comment="Solved task 1">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Task 2/main.kt" afterDir="false" />
+    <list default="true" id="a306ae35-f596-4ac2-84cc-32307b6fd121" name="Changes" comment="Added autotests and checked code coverage">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/MainKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Task 1/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task_1/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Task 2/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task_2/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +22,22 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -41,28 +56,140 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task 2.MainKt" />
-      <module name="KotlinHomeWork3.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="task_2" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle test" />
+      <command value="gradle jacocoTestReport" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.KotlinHomeWork3 [jacocoTestReport]">
+    <configuration name="KotlinHomeWork3 [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jacocoTestReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task 1.MainKt" />
+    <configuration name="KotlinHomeWork3 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainKtTest.calculateTaxType1IfTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;MainKtTest.calculateTaxType1IfTrue&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainKtTest.calculateTaxType2IfFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;MainKtTest.calculateTaxType2IfFalse&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KotlinHomeWork3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task_2" />
+      <option name="MAIN_CLASS_NAME" value="task_2.MainKtTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.KotlinHomeWork3 [jacocoTestReport]" />
+        <item itemvalue="Gradle.MainKtTest.calculateTaxType2IfFalse" />
+        <item itemvalue="Gradle.MainKtTest.calculateTaxType1IfTrue" />
+        <item itemvalue="Gradle.KotlinHomeWork3 [test]" />
+        <item itemvalue="JUnit.MainKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +225,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Solved task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved task 1" />
+    <MESSAGE value="Added autotests and checked code coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added autotests and checked code coverage" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KotlinHomeWork3$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1661803961665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
